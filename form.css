@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+header {
+    align-items: first baseline;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.page-header {
+    color: #666;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.left-section {
+    padding-right: 40px;
+}
+
+.logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: conic-gradient(
+        from 0deg,
+        #FF9966 0deg,   /* Orange */
+        #FF9966 90deg,  /* Orange */
+        #FF5E62 90deg,  /* Pink/Red */
+        #FF5E62 180deg, /* Pink/Red */
+        #00B4DB 180deg, /* Light Blue */
+        #00B4DB 270deg, /* Light Blue */
+        #2DD4BF 270deg, /* Teal */
+        #2DD4BF 360deg  /* Teal */
+    );
+    border-radius: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo::before {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+ .form-section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+
+
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #26c6da;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #26c6da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.register-btn:hover {
+    background-color: #00acc1;
+}
+
+.terms {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.terms a {
+    color: #26c6da;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.Mobilecontainer {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo2 {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #ff9966, #ff5e62);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.mobileform-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+footer {
+    justify-items: center;
+}
+
+.mobileregister-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #26c6da;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mobileregister-btn:hover {
+    background-color: #00bcd4;
+}
+
+.mobileterms {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.mobileterms a {
+    color: #26c6da;
+    text-decoration: none;
+}
+
+.PageContainer {
+    display: flex; /* Enables Flexbox for horizontal alignment */
+    flex-direction: row; /* Aligns the views side by side */
+    justify-content: space-between; /* Adds spacing between the views */
+    align-items: flex-start; /* Aligns the items to the top */
+    gap: 20px; /* Adds space between mobile and web views */
+    max-width: 1200px; /* Optional: Limits the total width of the container */
+    margin: 0 auto; /* Centers the container on the page */
+}
+
+.MobileView, .Mobilecontainer2 {
+    flex: 1; /* Both views take up equal space */
+    padding: 20px; /* Adds padding inside each section */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.MobileView {
+    background-color: #eef2f5; /* Optional: Background for mobile view */
+}
+
+
+.Mobilecontainer2 {
+    background-color: white; /* Optional: Background for web view */
+    border: 1px solid #ccc; /* Optional: Adds a border around the web view */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Optional: Adjust for smaller screens */
+@media screen and (max-width: 768px) {
+    .PageContainer {
+        flex-direction: column; /* Stacks views vertically on smaller screens */
+    }
+}
